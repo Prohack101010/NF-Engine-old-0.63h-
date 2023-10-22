@@ -103,11 +103,11 @@ class VisualsUISubState extends BaseOptionsMenu
 		addOption(option);
 
 		var option:Option = new Option('HUD Style',
-					      "choose the HUD style.",
-					      'hudStyle'
-					      'string',
-					      'Default',
-					      ['Test Hud', 'Default']);
+			"choose the HUD style.",
+			'hudStyle'
+			'string',
+			'Default',
+			['Test Hud', 'Default']);
 		addOption(option);
 		
 		var option:Option = new Option('GradientColor TimeBar ',
