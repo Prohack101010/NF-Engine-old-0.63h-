@@ -104,7 +104,7 @@ class VisualsUISubState extends BaseOptionsMenu
 
 		var option:Option = new Option('HUD Style',
 			"choose the HUD style.",
-			'hudStyle'
+			'hudStyle',
 			'string',
 			'Default',
 			['Test Hud', 'Default']);
