@@ -107,7 +107,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'hudStyle',
 			'string',
 			'Default',
-			['Test Hud', 'Default']);
+			['Default', 'Box Funkin', 'Forever Engine', 'Kade Engine']);
 		addOption(option);
 		
 		var option:Option = new Option('GradientColor TimeBar ',
