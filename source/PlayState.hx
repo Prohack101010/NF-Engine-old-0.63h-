@@ -332,8 +332,6 @@ class PlayState extends MusicBeatState
 	public static var lastCombo:FlxSprite;
 	// stores the last combo score objects in an array
 	public static var lastScore:Array<FlxSprite> = [];
-	// test
-	public static var hudStyle:String = "Default";
 
 	override public function create()
 	{
