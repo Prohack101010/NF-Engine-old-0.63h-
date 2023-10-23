@@ -40,7 +40,7 @@ class ClientPrefs {
 	public static var showComboNum = true;
 	public static var showRating = true;
 	public static var hitboxmode:String = 'New';  //starting new way to change between hitboxes yay
-	public static var hudStyle:String = 'Default'
+	public static var hudStyle:String = 'Default';
     
 	public static var hitboxExtend = true;
 	public static var hitboxLocation:String = 'Bottom';
