@@ -55,7 +55,7 @@ class HitboxSettingsSubState extends BaseOptionsMenu
 		  addOption(option);  
 		  
 		var option:Option = new Option('Hitbox Alpha:', //mariomaster was here again
-			'Changes Hitbox Alpha',
+			'Changes Hitbox Alpha.',
 			'hitboxalpha',
 			'float',
 			0.2);
