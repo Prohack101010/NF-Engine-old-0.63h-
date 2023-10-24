@@ -93,6 +93,14 @@ class VisualsUISubState extends BaseOptionsMenu
 			'bool',
 			false);
 		addOption(option);
+
+		var option:Option = new Option('HUD Style:',
+			"choose the HUD style.",
+			'hudStyle',
+			'string',
+			'Default',
+			['Default', 'Box Funkin', 'Forever Engine', 'Kade Engine', 'Imp V4']);
+		addOption(option);
 		
 		var option:Option = new Option('Time Bar:',
 			"What should the Time Bar display?",
@@ -100,14 +108,6 @@ class VisualsUISubState extends BaseOptionsMenu
 			'string',
 			'Time Left',
 			['Time Left', 'Time Elapsed', 'Song Name', 'Disabled']);
-		addOption(option);
-
-		var option:Option = new Option('HUD Style',
-			"choose the HUD style.",
-			'hudStyle',
-			'string',
-			'Default',
-			['Default', 'Box Funkin', 'Forever Engine', 'Kade Engine']);
 		addOption(option);
 		
 		var option:Option = new Option('GradientColor TimeBar ',
