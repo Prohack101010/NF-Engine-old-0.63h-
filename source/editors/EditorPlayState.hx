@@ -817,17 +817,17 @@ class EditorPlayState extends MusicBeatState
 
 		var daRating:String = "sick";
 
-		if (noteDiff > Conductor.safeZoneOffset * 0.75)
+		if (noteDiff > Conductor.safeZoneOffset * 0.85)
 		{
 			daRating = 'shit';
 			//score = 50;
 		}
-		else if (noteDiff > Conductor.safeZoneOffset * 0.5)
+		else if (noteDiff > Conductor.safeZoneOffset * 0.6)
 		{
 			daRating = 'bad';
 			//score = 100;
 		}
-		else if (noteDiff > Conductor.safeZoneOffset * 0.25)
+		else if (noteDiff > Conductor.safeZoneOffset * 0.35)
 		{
 			daRating = 'good';
 			//score = 200;
