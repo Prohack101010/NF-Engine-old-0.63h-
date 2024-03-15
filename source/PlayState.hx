@@ -73,7 +73,7 @@ import sys.io.File;
 #end
 
 #if VIDEOS_ALLOWED
-import VideoHandler as MP4Handler;
+import vlc.MP4Handler;
 #end
 
 using StringTools;
@@ -1659,6 +1659,7 @@ class PlayState extends MusicBeatState
 		else
 			startCountdown();
 	}
+
 
 	var dialogueCount:Int = 0;
 	public var psychDialogue:DialogueBoxPsych;
